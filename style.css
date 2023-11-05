@@ -1,0 +1,122 @@
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: dodgerblue;
+    color: #ffffff;
+    text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+
+table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    overflow-x: scroll;
+    margin-left: 5em;
+    overflow-y: visible;
+    padding: 0;
+}
+
+.names {
+    /*max-width: 120px;*/
+}
+
+  .totalcol {
+    position: absolute;
+    width: 5em;
+    right: 0;
+    top: auto;
+    border-top-width: 1px;
+    /*only relevant for first row*/
+    margin-top: -1px;
+    /*compensate for top border*/
+    background-color: plum;
+    font-weight: bolder;
+    font-size: larger;
+  }
+  .default {
+    /*position: absolute;*/
+    width: 5em;
+    color: yellow;
+    /*left: 0;*/
+    top: auto;
+    border-top-width: 1px;
+    /*only relevant for first row*/
+    margin-top: -1px;
+    /*compensate for top border*/
+    background-color: #016064;
+    font-weight: bolder;
+    font-size: larger;
+  }
+
+ 
+
+  .monthTotal {
+    /*position: absolute;
+    /*width: 5em;*/
+    left: 0;
+    top: auto;
+    border-width: 1px;
+    margin-top: -1px;
+    font-weight: bolder;
+    color: red;
+  }
+  .long {
+    background-color: #EFFD5F;
+    /*letter-spacing: 1em;*/
+  }
+
+  .namecol {
+    position: absolute;
+    width: 10em;
+    left: 0;
+    top: auto;
+    border-top-width: 1px;
+    /*only relevant for first row*/
+    margin-top: -1px;
+    /*compensate for top border*/
+    background-color: plum;
+    font-weight: bolder;
+    
+  }
+
+  p { 
+    font-size:20px; 
+    color:blue; 
+    font-weight:bolder; 
+    font-style:italic;
+  }
+
+ 
+
+ 
+  
