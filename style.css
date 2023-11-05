@@ -61,7 +61,7 @@ table {
     /*compensate for top border*/
     background-color: plum;
     font-weight: bolder;
-    font-size: larger;
+    /*font-size: larger;*/
   }
   .default {
     /*position: absolute;*/
@@ -105,12 +105,12 @@ table {
     margin-top: -1px;
     /*compensate for top border*/
     background-color: plum;
-    font-weight: bolder;
+    /*font-weight: bolder;*/
     
   }
 
   p { 
-    font-size:20px; 
+    /*font-size:20px;*/ 
     color:blue; 
     font-weight:bolder; 
     font-style:italic;
