@@ -60,7 +60,7 @@ table {
     margin-top: -1px;
     /*compensate for top border*/
     background-color: plum;
-    font-weight: bolder;
+    /*font-weight: bolder;*/
     /*font-size: larger;*/
   }
   .default {
@@ -74,8 +74,8 @@ table {
     margin-top: -1px;
     /*compensate for top border*/
     background-color: #016064;
-    font-weight: bolder;
-    font-size: larger;
+    /*font-weight: bolder;*/
+    /*font-size: larger;*/
   }
 
  
